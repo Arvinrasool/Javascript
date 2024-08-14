@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    <p>ROCK PAPER SCISSOR GAME</p>
+
+    <button onclick="
+      const randNum = Math.random();
+      let compMove = ''
+      if (randNum >= 0 && randNum < 1/3 ) {
+        compMove = 'rock';}
+
+      else if (randNum >= 1/3 && randNum< 2/3) {
+        compMove = 'paper';}
+
+      else if (randNum >= 2/3 && randNum< 1) {
+        compMove = 'scissor';}
+      
+      console.log(compMove);
+
+      let result = '';
+      if (compMove == 'rock') {
+        result = 'tie.';
+      }
+      else if (compMove == 'paper') {
+        result = 'You lose.';
+      }
+      else if (compMove == 'scissor') {
+        result = 'You Won.';
+      }
+      
+      alert (`You choose Rock. Computer choose ${compMove}.Result ${result}`)">Rock</button>
+    
+    <button onclick="
+      const randNum = Math.random();
+      let compMove = ''
+      if (randNum >= 0 && randNum < 1/3 ) {
+        compMove = 'rock';}
+
+      else if (randNum >= 1/3 && randNum< 2/3) {
+        compMove = 'paper';}
+
+      else if (randNum >= 2/3 && randNum< 1) {
+        compMove = 'scissor';}
+      
+      console.log(compMove);
+
+      let result = '';
+      if (compMove == 'rock') {
+        result = 'You won.';
+      }
+      else if (compMove == 'paper') {
+        result = 'Tie.';
+      }
+      else if (compMove == 'scissor') {
+        result = 'You Lose.';
+      }
+      
+      alert (`You choose Paper. Computer choose ${compMove}.Result ${result}`)">Paper</button>
+    
+    <button onclick="
+    const randNum = Math.random();
+    let compMove = ''
+    if (randNum >= 0 && randNum < 1/3 ) {
+      compMove = 'rock';}
+
+    else if (randNum >= 1/3 && randNum< 2/3) {
+      compMove = 'paper';}
+
+    else if (randNum >= 2/3 && randNum< 1) {
+      compMove = 'scissor';}
+    
+    console.log(compMove);
+    
+      let result = '';
+      if (compMove == 'rock') {
+        result = 'You Lose.';
+      }
+      else if (compMove == 'paper') {
+        result = 'You won';
+      }
+      else if (compMove == 'scissor') {
+        result = 'Tie.';
+      }
+      
+      alert (`You choose Scissor. Computer choose ${compMove}.Result ${result}`)">Scissor</button>
+  

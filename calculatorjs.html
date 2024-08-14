@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator Using Javascript</title>
+    <style>
+      #size{
+        width: 75px;
+      }
+
+      button:only-of-type {
+        background-color: black;
+      }
+
+    </style>
+  </head>
+
+  <body>
+
+    <script>
+      let calculation=' '
+    </script>
+
+    <p>
+
+      <button onclick="calculation+='1';
+      console.log(calculation);">1</button>
+
+      <button onclick="calculation+='2';
+      console.log(calculation);">2</button>
+
+      <button onclick="calculation+='3';
+      console.log(calculation);">3</button><br><br>
+
+      <button onclick="calculation+='4';
+      console.log(calculation);">4</button>
+
+      <button onclick="calculation+='5';
+      console.log(calculation);">5</button>
+
+      <button onclick="calculation+='6';
+      console.log(calculation);">6</button><br><br>
+
+      <button onclick="calculation+='7';
+      console.log(calculation);">7</button>
+
+      <button onclick="calculation+='8';
+      console.log(calculation);">8</button>
+
+      <button onclick="calculation+='9';
+      console.log(calculation);">9</button><br><br>
+
+      <button onclick="calculation+='0';
+      console.log(calculation);">0</button>
+
+      <button onclick="calculation+=' + ';
+      console.log(calculation)">+</button>
+
+      <button onclick="calculation+=' - ';
+      console.log(calculation)">-</button><br><br>
+
+      <button onclick="calculation+=' * ';
+      console.log(calculation)">*</button>
+
+      <button onclick="calculation+=' / ';
+      console.log(calculation)">/</button>
+
+      <button onclick="eval(calculation)
+      calculation=eval(calculation);
+      console.log(calculation);">=</button><br><br>
+
+      <button onclick="calculation = '';
+      console.log(calculation);" id="size">AC</button>
+
+    </p>
+  </body>
+</html>
